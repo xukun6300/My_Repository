@@ -31,11 +31,13 @@ ctor_givenNameIsNull_throwsException() consists of:
 ctor indicates that we are testing constructor behavior
 givenNameIsNull specifies condition when a null name is passed in to the constructor
 throwsException indicates that when the condition is met (name is null), we will throw an exception. Note that @Test(expected = IllegalArgumentException.class) defines concrete exception we expect.
+
 ctor_givenNameIsValid_setsName() consists of:
 
 ctr indicates that we are testing constructor behavior
 givenNameIsValid specifies condition when a non-null name is passed in to the constructor
 setsName indicates that when the condition is met (name is non-null), class member name of our testCustomer should be set.
+
 getName_returnsName() consists of:
 
 getName indicates we are testing behavior of the getName() method
