@@ -1,3 +1,5 @@
+## Blockchain
+A block chain is actually an extremely simple concept. It's just a set of linearly connected information containing blocks secured with cryptography. 
 
 ## Decentralization
 There are three main forms of decentralization, or how authority is transferred:
